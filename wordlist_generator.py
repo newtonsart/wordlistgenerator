@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import string, random, sys
 
 def generate_characters():
