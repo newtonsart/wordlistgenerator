@@ -1,5 +1,5 @@
-
 import string, random, sys
+
 def generate_characters():
        characters = []
        lower = string.ascii_lowercase
@@ -13,7 +13,6 @@ def generate_characters():
        for i in digit:
               characters.append(i)
        return characters
-
               
 def generate_password(character_number, characters):
        generated = ""
@@ -21,10 +20,9 @@ def generate_password(character_number, characters):
                 generated += characters[random.randint(0,len(characters)-1)]
        return generated
 
-
 if __name__ == '__main__':
        try:
-              character_number = sys.argv[1]
+              character_number = int(sys.argv[1])
               output_file = sys.argv[2]
        except:
               print("Python3 {} <NUMBER OF CHARACTERS> <OUTPUT FILE>".format(sys.argv[0]))
