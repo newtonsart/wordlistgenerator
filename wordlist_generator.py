@@ -25,7 +25,7 @@ if __name__ == '__main__':
               character_number = int(sys.argv[1])
               output_file = sys.argv[2]
        except:
-              print("Python3 {} <NUMBER OF CHARACTERS> <OUTPUT FILE>".format(sys.argv[0]))
+              print("Usage: python3 {} <NUMBER OF CHARACTERS> <OUTPUT FILE>".format(sys.argv[0]))
               exit()
 
        x=0
