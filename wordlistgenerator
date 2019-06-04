@@ -3,17 +3,7 @@ from itertools import product
 import string, sys
 
 def generate_characters():
-      characters = []
-      lower = string.ascii_lowercase
-      upper = string.ascii_uppercase
-      digit = string.digits
-
-      for i in lower:
-            characters.append(i)
-      for i in upper:
-            characters.append(i)
-      for i in digit:
-            characters.append(i)
+      characters = [char for char in string.printable.replace("\t\n\r\x0b\x0c","")]
       return characters
 
 if __name__ == '__main__':
