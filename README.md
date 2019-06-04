@@ -6,7 +6,7 @@ python3 wordlistgenerator <MIN_CHARACTERS> <MAX_CHARACTERS> <OUTPUT FILE>
 ```
 ## Built with
 * [Python 3](https://www.python.org/downloads/) - The language used.
-* Python modules used: Socket, sys, os, ipaddress and threading.
+* Python modules used: itertool, string, os.
 
 ## Authors
 * **[[LolArt](https://github.com/LilArt)]**
