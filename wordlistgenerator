@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from itertools import product
-import string, os
+import string, sys
 
 def generate_characters():
       characters = []
@@ -18,9 +18,9 @@ def generate_characters():
 
 if __name__ == '__main__':
       try:
-            min_characters = int(os.argv[1])
-            max_characters = int(os.argv[2]) + 1
-            output_file = os.argv[3]
+            min_characters = int(sys.argv[1])
+            max_characters = int(sys.argv[2]) + 1
+            output_file = sys.argv[3]
       except:
             print("Usage: python3 {} <MIN_CHARACTERS> <MAX_CHARACTERS> <OUTPUT FILE>".format(sys.argv[0]))
             exit()
