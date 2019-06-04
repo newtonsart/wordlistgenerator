@@ -39,6 +39,6 @@ if __name__ == '__main__':
                         print("\rPaswords generated: {}, current password: {}".format(x, "".join(item)), end="\r")
             print("Wordlist finished, passwords created: "+str(x))
       except KeyboardInterrupt:
-            print("\nLol\nPaswords generated: {}, current password: {}".format(x, "".join(item)))
+            print("\nLol")
             f.close()
 f.close()
