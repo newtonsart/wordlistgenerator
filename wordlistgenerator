@@ -28,7 +28,7 @@ if __name__ == '__main__':
       x=0
       f = open(output_file, "w+")
       characters = "".join(generate_characters())
-      print(characters)
+      print("Characters going to be used: "+characters)
       if max_characters < min_characters:
             print("The max number of characters is smaller than the min number of characters\nUsage: python3 {} <MIN_CHARACTERS> <MAX_CHARACTERS> <OUTPUT FILE>".format(sys.argv[0]))
       try:
