@@ -1,5 +1,8 @@
 # wordlistgenerator
 A little python program that generates wordlists with a custom password length, custom minimum and maximum number of characters.
+
+Please do not use this for illegal purposes.
+
 ## Usage
 ```
 python3 wordlistgenerator <MIN_CHARACTERS> <MAX_CHARACTERS> <OUTPUT FILE>
